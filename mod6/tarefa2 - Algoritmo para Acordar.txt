@@ -1,0 +1,22 @@
+funcao acordar():
+    se (usuario.abrir_os_olhos()):
+        // Passos para acordar
+        ligar_luz()
+        esperar_alma_voltar()
+        sentar_na_cama()
+        esperar_mais_ainda()
+        espreguicar()
+        esperar_mais_um_pouco()
+        levantar_da_cama()
+        ir_ao_banheiro(lentamente=true)
+        olhar_no_espelho()
+        se_motivar()
+        fazer_higiene_pessoal()
+        tomar_cafe_da_manha()
+        correr_pro_trabalho()
+    senao:
+        usuario.voltar_a_dormir()
+        patrao_liga()
+        perde_dsr()
+
+    trabalhar()
