@@ -10,6 +10,8 @@ Durante a execução do curso foram realizados alguns artigos. Abaixo você pode
 * [Expressões Lambda](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod20/lambda.pdf) - Expressões Lambda
 * [PostgreSQL](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod26/PostgreSQL.pdf) - SGBD PostgreSQL
 
+* [JPA e Mapeamento de Dados](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod31/JPA.pdf) - JPA e Mapeamento de Dados Relacionais.
+
 ## 👨‍💻 Projetos
 
 Como a nomeação dos módulos se deu de forma padronizada pode ser difícil encontrar os projetos concluídos de forma rápida. Abaixo, é possível olhar para cada projeto:
