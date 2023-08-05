@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ldnovaes.clientesv1.controller.MainController">
+   <top>
+      <MenuBar styleClass="panel-title" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#cadastrarCliente" text="Novo Cadastro" />
+            </items>
+          </Menu>
+          <Menu fx:id="editarClienteMenu" mnemonicParsing="false" onAction="#editarCliente" text="Editar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Editar Cadastro" />
+            </items>
+          </Menu>
+            <Menu fx:id="apagarClienteMenu" mnemonicParsing="false" onAction="#apagarCliente" text="Apagar">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Apagar Cadastro" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <SplitPane dividerPositions="0.14285714285714285" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TextField fx:id="searchInput" layoutX="27.0" layoutY="13.0" promptText="Digite CPF ou Nome" />
+                  <Button fx:id="searchButton" layoutX="198.0" layoutY="13.0" mnemonicParsing="false" onAction="#buscarCliente" text="Pesquisar" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ListView fx:id="lvClientesFxml" layoutX="-8.0" prefHeight="323.0" prefWidth="613.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>
