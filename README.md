@@ -20,7 +20,7 @@ Como a nomeação dos módulos se deu de forma padronizada pode ser difícil enc
 
 * [Projeto 02](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/tree/main/mod25/clientesv1) - Projeto 02 - Criação de Testes com JUnit para o Projeto 01.
 
-*[Projeto 03](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/tree/main/mod32/clientesv1) - Projeto 03 - Modificação do Projeto 01 para um CRUD com PostgreSQL; 
+* [Projeto 03](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/tree/main/mod32/clientesv1) - Projeto 03 - Modificação do Projeto 01 para um CRUD com PostgreSQL; 
 
 ## 📄 Licença
 
