@@ -9,6 +9,8 @@ Durante a execução do curso foram realizados alguns artigos. Abaixo você pode
 * [Injeção de Dependência](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod16/mod16.pdf) - Injeção de Dependências no Spring
 * [Expressões Lambda](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod20/lambda.pdf) - Expressões Lambda
 * [PostgreSQL](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod26/PostgreSQL.pdf) - SGBD PostgreSQL
+* [Redis](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod34/Redis.pdf) - Banco de dados Redis
+* [Cassandra](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod34/Cassandra.pdf) - Banco de Dados Cassandra
 
 * [JPA e Mapeamento de Dados](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod31/JPA.pdf) - JPA e Mapeamento de Dados Relacionais.
 
@@ -21,6 +23,8 @@ Como a nomeação dos módulos se deu de forma padronizada pode ser difícil enc
 * [Projeto 02](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/tree/main/mod25/clientesv1) - Projeto 02 - Criação de Testes com JUnit para o Projeto 01.
 
 * [Projeto 03](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/tree/main/mod32/clientesv1) - Projeto 03 - Modificação do Projeto 01 para um CRUD com PostgreSQL; 
+
+* [Projeto 04](https://github.com/ldnovaes/servlet-jsp-example) - Projeto 04 - JDBC com Java Web (Servlet e JSP); 
 
 ## 📄 Licença
 
