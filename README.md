@@ -18,7 +18,7 @@ Durante a execução do curso foram realizados alguns artigos. Abaixo você pode
 
 * [JPA e Mapeamento de Dados](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod31/JPA.pdf) - JPA e Mapeamento de Dados Relacionais.
 
-*[Arquitetura de Microsserviços](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod41/Microsserviços.pdf) - Arquitetura de Microsserviços
+* [Arquitetura de Microsserviços](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod41/Microsserviços.pdf) - Arquitetura de Microsserviços
 
 ## 👨‍💻 Projetos
 
