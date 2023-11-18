@@ -7,12 +7,18 @@ O curso de Especialista Back-End Java oferecido pela escola EBAC é uma excelent
 Durante a execução do curso foram realizados alguns artigos. Abaixo você pode verificá-los:
 
 * [Injeção de Dependência](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod16/mod16.pdf) - Injeção de Dependências no Spring
+
 * [Expressões Lambda](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod20/lambda.pdf) - Expressões Lambda
+
 * [PostgreSQL](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod26/PostgreSQL.pdf) - SGBD PostgreSQL
+
 * [Redis](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod34/Redis.pdf) - Banco de dados Redis
+
 * [Cassandra](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod34/Cassandra.pdf) - Banco de Dados Cassandra
 
 * [JPA e Mapeamento de Dados](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod31/JPA.pdf) - JPA e Mapeamento de Dados Relacionais.
+
+*[Arquitetura de Microsserviços](https://github.com/ldnovaes/tarefas-ebac-Leandro-Duarte/blob/main/mod41/Microsserviços.pdf) - Arquitetura de Microsserviços
 
 ## 👨‍💻 Projetos
 
