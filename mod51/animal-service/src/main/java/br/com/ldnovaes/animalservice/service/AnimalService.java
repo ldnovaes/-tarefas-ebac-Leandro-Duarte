@@ -1,6 +1,10 @@
 package br.com.ldnovaes.animalservice.service;
 
+import java.sql.Date;
+import java.time.LocalDate;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -86,5 +90,17 @@ public class AnimalService {
 
 	public List<AnimalDTO> findByEmployee(String nomeRecebedor) {
 		return this.getCorrectImplementation(this.repository.findByEmployee(nomeRecebedor));
+	}
+
+	public Map<String, Object> countAnimalsRescuedByDates(String nomeRecebedor, LocalDate dataInicial, LocalDate dataFinal) {
+
+		Date initial = Date.valueOf(dataInicial);
+		Date dateFinal = Date.valueOf(dataFinal);
+		
+		Map<String, Object> animalsPerEmployee = new HashMap<>();
+		
+		animalsPerEmployee.put(nomeRecebedor, (int) this.findByEmployee(nomeRecebedor).stream()
+				.filter(o -> (o.getDataEntrada().after(initial) || o.getDataEntrada().equals(initial)) && (o.getDataEntrada().before(dateFinal) || o.getDataEntrada().equals(dateFinal))).count());
+        return animalsPerEmployee;
 	}
 }
