@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "kafka.ebac.nome.topico",
+  "type": "java.lang.String",
+  "description": "A description for 'kafka.ebac.nome.topico'"
+}]}
